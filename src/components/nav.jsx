@@ -2,6 +2,7 @@ import react from "react";
 import logo from "./../assets/logo.png";
 import shop from "./../assets/shop.png";
 import girl from "./../assets/girl.png"
+import { Link , Outlet } from "react-router-dom";
 import './nav.css';
 
 function Nav() {
@@ -12,7 +13,9 @@ function Nav() {
             <div className="logo"><img src={logo} alt="" /> </div>
             <div className="menu">
                 <div className="menu-list"><p>Home</p></div>
+                {/* <div className="menu-list"><Link to={home}>Home</Link></div> */}
                 <div className="menu-list"><p>Shop</p></div>
+                {/* <div className="menu-list"><Link to={shop}>Shop</Link></div> */}
                 <div className="menu-list"><p>About</p></div>
                 <div className="menu-list"><p>Contact</p></div>
             </div>
