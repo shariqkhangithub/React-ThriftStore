@@ -1,6 +1,7 @@
 import react from "react";
 import girl from "./../../assets/girl.png"
 import Navbar from "../../components/nav/Navbar";
+import { Link } from "react-router-dom";
 import './home.css';
 
 function Nav() {
@@ -14,7 +15,8 @@ function Nav() {
                 <h1>Super Value deals</h1>
                 <h1 className="colour">On all products</h1>
                 <p>save more with coupons & up to 70% off</p>
-                <button className="shop-btn colour">shop now</button>
+                <Link to='/shop'><button className="shop-btn colour">shop now</button></Link>
+                
             </div>
             <div className="front-two "><img src={girl} alt="" /></div>
         </div>
