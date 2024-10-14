@@ -1,10 +1,10 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
-import Nav from './pages/Home'
+import Nav from './pages/home/Home'
 import Shop from './pages/shop/Shop'
 import About from './pages/About'
-import Contact from './pages/Contact'
+import Contact from './pages/contact'
 import { BrowserRouter, Routes , Route} from 'react-router-dom'
 import './App.css'
 

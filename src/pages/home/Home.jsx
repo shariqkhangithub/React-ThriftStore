@@ -1,9 +1,6 @@
 import react from "react";
-import logo from "./../assets/logo.png";
-import shop from "./../assets/shop.png";
-import girl from "./../assets/girl.png"
-import { Link  } from "react-router-dom";
-import Navbar from "../components/nav/Navbar";
+import girl from "./../../assets/girl.png"
+import Navbar from "../../components/nav/Navbar";
 import './home.css';
 
 function Nav() {
