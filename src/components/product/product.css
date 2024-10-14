@@ -1,0 +1,17 @@
+.product{
+    height: 270px;
+    width: 250px;
+    /* background-color: rgb(195, 192, 192); */
+    box-shadow: 0 5px 10px 0.1px ;
+    margin: 30px;
+    border-radius: 30px;
+    padding: 10px;
+}
+.img{
+    height: 60%;
+    width: 100%;
+    background-color: rgb(147, 243, 177);
+    border-radius: 30px ;
+    text-align: center;
+    align-content: center;
+}
