@@ -1,0 +1,49 @@
+.about{
+    opacity: 0;
+    transform: translateY(20px);
+    animation: glow 1s forwards;
+}
+.about-main{
+    height: 450px;
+    width: 100vw;
+    /* background-color: rgb(194, 122, 29); */
+    padding: 35px;
+    display: flex;
+}
+.ab-one{
+    height: 100%;
+    width: 50%;
+    overflow: hidden;
+   img{
+    height: 100%;
+    width: auto;
+   
+   }
+}
+@keyframes glow{
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.ab-two{
+    height: 100%;
+    width: 50%;
+    /* background-color: rgb(240, 208, 166); */
+    padding: 30px;
+    padding-top: 50px;
+}
+.two-h1{
+    font-size: 35px;
+    padding-bottom: 10px;
+}
+.about-down{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 10px;
+    /* height: 500px;
+    width: 100vw;
+    background-color: beige;
+    align-items: center;
+    display: block; */
+}

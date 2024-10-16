@@ -18,7 +18,7 @@ function Nav() {
                 <Link to='/shop'><button className="shop-btn colour">shop now</button></Link>
                 
             </div>
-            <div className="front-two "><img src={girl} alt="" /></div>
+            <div className="front-two "><img className="img-home" src={girl} alt="" /></div>
         </div>
         </>
     )
